@@ -9,7 +9,8 @@ import (
 const a int = 100;
 func main(){
 
-	const x int = 10
+	// type is not required for const, it is derived based on the context it is used.
+	const x  = 10
 
 	//calculated constant
 	const calculated float64 = 0.000034/5.5
