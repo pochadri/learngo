@@ -18,7 +18,9 @@ func main(){
 	// initialize and define in one statement
 	b:=[5]int{10,20,30,40,50}
 
-	fmt.Println(b)
+	// we can slice the array like this.
+	c:=b[1:2];
+	fmt.Println("sliced:",c)
 
 	// two dimenational array
 
